@@ -1,0 +1,9 @@
+const ButtonBar = (props) => {
+    return (
+        <div>
+            <button onClick={props.handleIterate}>Start</button>
+        </div>
+    )
+}
+
+export default ButtonBar
